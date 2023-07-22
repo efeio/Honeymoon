@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="8DX-p5-6ov">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-honeymoon-app" translatesAutoresizingMaskIntoConstraints="NO" id="Zj7-fd-wL0">
+                                <rect key="frame" x="76.666666666666686" y="362" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="QBa-1m-nxe"/>
+                                    <constraint firstAttribute="height" constant="128" id="j9v-0f-lrG"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8DX-p5-6ov" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="1Ou-l9-Kbj"/>
+                            <constraint firstItem="Zj7-fd-wL0" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="7j3-Eh-19S"/>
+                            <constraint firstItem="Zj7-fd-wL0" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="C7x-yD-4Z9"/>
+                            <constraint firstItem="8DX-p5-6ov" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="topMargin" id="S1l-D1-xw8"/>
+                            <constraint firstItem="8DX-p5-6ov" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leadingMargin" id="asO-G8-WZp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8DX-p5-6ov" secondAttribute="trailing" id="dca-0G-s2z"/>
+                            <constraint firstAttribute="trailing" secondItem="8DX-p5-6ov" secondAttribute="trailing" id="wDa-f9-bT1"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="8DX-p5-6ov" secondAttribute="bottom" id="xsT-9k-zfp"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121" y="-17"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="1024" height="1024"/>
+        <image name="logo-honeymoon-app" width="1024" height="1024"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
